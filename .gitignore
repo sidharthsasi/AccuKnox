@@ -1,0 +1,10 @@
+# Byte-compiled / optimized / DLL files
+
+*.py[cod]
+*$py.class
+.idea
+*.so
+.venv
+.vscode
+venv
+.python-version

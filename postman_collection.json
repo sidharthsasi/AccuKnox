@@ -1,0 +1,38 @@
+"name": "Sign Up"
+"method": "POST"
+"body": "raw": "{\n    \"email\": \"\",\n    \"password\": \"\",\n    \"first_name\": \"\",\n    \"last_name\": \"\"\n}"
+http://127.0.0.1:8000/account/signup
+
+
+"name": "Login",
+"method": "POST",
+"body": "raw": "{\n    \"email\": \"\",\n    \"password\": \"\"\n}",
+http://127.0.0.1:8000/account/login
+
+
+
+"name": "Logout",
+"method": "POST",
+"key" : "Authorization"
+"Value":"Token"
+http://127.0.0.1:8000/account/logout
+
+
+
+
+"name": "Friend Requests",
+"method": "POST",
+"key" : "Authorization"
+"Value":"Token"
+http://127.0.0.1:8000/account/friends
+
+
+"name": "List All Friends",
+"method": "GET"
+
+
+"name": "Search Users",
+"method": "GET",
+"key" : "Authorization",
+"Value":"Token"
+http://127.0.0.1:8000/account/friends
